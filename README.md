@@ -138,84 +138,102 @@ Green Zone Monitoring	C • AVL Trees • DSA
 Electricity Billing System	Java Swing • JDBC • MySQL
 
 
-🏗️ How I Build AI Systems
-I don't want my work to stop at:
-model.fit(X, y)
-I am working toward the complete engineering lifecycle:
-┌──────────────┐
-│  Problem     │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│ Data         │
-│ Engineering  │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│ ML / DL /    │
-│ LLM Models   │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│ Evaluation   │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│ FastAPI      │
-│ Inference    │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│ RAG / Agents │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│ Docker       │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│ CI / CD      │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│ Cloud / MLOps│
-└──────────────┘
-☁️ Production Architecture I'm Building Toward
-                         USERS
+## 🏗️ How I Build AI Systems
+
+I don't want my work to stop at `model.fit(X, y)`.
+
+I am working toward the complete AI engineering lifecycle:
+
+```text
+Problem
+   ↓
+Data Engineering
+   ↓
+ML / DL / LLM
+   ↓
+Evaluation
+   ↓
+FastAPI / Inference
+   ↓
+RAG / AI Agents
+   ↓
+Docker
+   ↓
+CI / CD
+   ↓
+Cloud / MLOps
+   ↓
+Production AI System
+
+
+☁️ Production AI Architecture
+
+                         👤 USER
                            │
                            ▼
-                ┌────────────────────┐
-                │ React / Web Client  │
-                └─────────┬──────────┘
-                          │
-                          ▼
-                ┌────────────────────┐
-                │ FastAPI / Gateway  │
-                └─────────┬──────────┘
-                          │
-            ┌─────────────┼─────────────┐
-            ▼             ▼             ▼
-       PostgreSQL       Redis          Kafka
-            │             │             │
-            │             │             ▼
-            │             │        Async Workers
-            │             │             │
-            └─────────────┼─────────────┘
-                          │
-                ┌─────────┴──────────┐
-                ▼                    ▼
-          Model Serving          Vector Search
-                │                    │
-                ▼                    ▼
-             PyTorch          FAISS / Vector DB
-                │                    │
-                └──────────┬─────────┘
-                           ▼
-                     AI Response
+                  ┌─────────────────┐
+                  │ React / Web App │
+                  └────────┬────────┘
                            │
                            ▼
-                 Observability Layer
-                 Prometheus / Grafana
+                  ┌─────────────────┐
+                  │ FastAPI Gateway │
+                  └────────┬────────┘
+                           │
+             ┌─────────────┼─────────────┐
+             │             │             │
+             ▼             ▼             ▼
+        PostgreSQL       Redis         Kafka
+         Database        Cache      Event Stream
+             │             │             │
+             └─────────────┼─────────────┘
+                           │
+                           ▼
+                  ┌─────────────────┐
+                  │   AI / ML       │
+                  │     Workers     │
+                  └────────┬────────┘
+                           │
+                ┌──────────┴──────────┐
+                │                     │
+                ▼                     ▼
+        ┌───────────────┐     ┌───────────────┐
+        │ PyTorch / ML  │     │ Vector Search │
+        │ Model Serving │     │ FAISS / DB    │
+        └───────┬───────┘     └───────┬───────┘
+                │                     │
+                └──────────┬──────────┘
+                           │
+                           ▼
+                    ┌─────────────┐
+                    │ AI Response │
+                    └──────┬──────┘
+                           │
+                           ▼
+                ┌─────────────────────┐
+                │   Observability     │
+                │ Prometheus/Grafana  │
+                └─────────────────────┘
+
+
+          GitHub
+             │
+             ▼
+      GitHub Actions
+             │
+             ▼
+          Docker
+             │
+             ▼
+       AWS / Cloud
+             │
+             ▼
+      Terraform / IaC
+
+
+Engineering flow:
+Python → PyTorch → FastAPI → RAG/Agents → Docker → GitHub Actions → AWS → MLOps
+My goal is to build AI systems that are not only accurate, but also reproducible, testable, deployable, observable and scalable.
 
        GitHub → GitHub Actions → Docker → AWS
                     Terraform / IaC
