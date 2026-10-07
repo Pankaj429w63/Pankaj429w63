@@ -1,5 +1,3 @@
-<img width="743" height="786" alt="image" src="https://github.com/user-attachments/assets/990631df-bf4b-46eb-aaa6-0c08ec70fa35" /><img width="1222" height="1287" alt="Multimodal AI Architecture Flowchart" src="https://github.com/user-attachments/assets/f1a991dc-f1ae-46a0-a0b7-d0e5c2116119" /><div align="center">
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1d4ed8,100:312e81&height=220&section=header&text=PANKAJ%20YADAV&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%2FML%20ENGINEER%20%7C%20GENERATIVE%20AI%20%7C%20MULTIMODAL%20AI%20%7C%20CLOUD%20%26%20MLOPS&descAlignY=63&descSize=17" width="100%"/>
 
 👋 Hi, I'm Pankaj Yadav
