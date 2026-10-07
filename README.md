@@ -22,7 +22,7 @@ AI/ML Engineer • Generative AI • Multimodal AI • Cloud & DevOps
 
 </div>
 
-🧑‍💻 About Me
+
 I'm a final-year B.Tech student in Artificial Intelligence & Machine Learning at Symbiosis Institute of Technology, Pune, focused on turning AI/ML ideas into complete, deployable software systems.
 I work across the stack:
 Data → ML/DL → Transformers → RAG/Agents → API → Docker → CI/CD → Cloud
