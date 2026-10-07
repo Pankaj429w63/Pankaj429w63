@@ -1,4 +1,4 @@
-<div align="center">
+<img width="743" height="786" alt="image" src="https://github.com/user-attachments/assets/990631df-bf4b-46eb-aaa6-0c08ec70fa35" /><img width="1222" height="1287" alt="Multimodal AI Architecture Flowchart" src="https://github.com/user-attachments/assets/f1a991dc-f1ae-46a0-a0b7-d0e5c2116119" /><div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1d4ed8,100:312e81&height=220&section=header&text=PANKAJ%20YADAV&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%2FML%20ENGINEER%20%7C%20GENERATIVE%20AI%20%7C%20MULTIMODAL%20AI%20%7C%20CLOUD%20%26%20MLOPS&descAlignY=63&descSize=17" width="100%"/>
 
@@ -26,7 +26,7 @@ AI/ML Engineer • Generative AI • Multimodal AI • RAG • Cloud & MLOps
 
 </div>
 
-👨‍💻 About Me
+
 I'm Pankaj Yadav, a final-year B.Tech Artificial Intelligence & Machine Learning student at Symbiosis Institute of Technology, Pune.
 I build AI systems that go beyond model training — from data and machine learning models to multimodal intelligence, RAG pipelines, APIs, containers and cloud-ready architectures.
 My primary engineering interests are:
@@ -102,45 +102,12 @@ Affectra AI explores how multiple modalities can be combined into a unified inte
 - AI Agents
 - FastAPI
 - Docker
+
 🏗️ Architecture
-              ┌──────────────┐
-              │     Text     │
-              └──────┬───────┘
-                     │
-              ┌──────▼───────┐
-              │ NLP /        │
-              │ Transformer  │
-              └──────┬───────┘
-                     │
-                     │
-┌──────────────┐     │     ┌──────────────┐
-│    Audio     │─────┼────►│   Fusion     │
-└──────┬───────┘     │     │    Layer     │
-       │             │     └──────┬───────┘
-       ▼             │            │
-┌──────────────┐     │            ▼
-│ Audio Model  │─────┘      ┌──────────────┐
-└──────────────┘            │ Prediction / │
-                            │ Intelligence │
-┌──────────────┐            └──────┬───────┘
-│    Image     │───────────────────┘
-└──────┬───────┘
-       │
-       ▼
-┌──────────────┐
-│ Vision Model │
-└──────────────┘
-       │
-       ▼
-┌──────────────────┐
-│ RAG / Vector DB  │
-└────────┬─────────┘
-         │
-         ▼
-┌──────────────────┐
-│ AI Application   │
-│ / FastAPI        │
-└──────────────────┘
+
+<img width="743" height="786" alt="Screenshot 2026-10-07 234656" src="https://github.com/user-attachments/assets/0f6d6d8f-81b6-4368-87a3-b2cd3965b35a" />
+
+             
 🛠️ Technology
 Python PyTorch Transformers Computer Vision NLP RAG FAISS LangChain FastAPI Docker
 🔗 Repository
@@ -163,44 +130,8 @@ TerraMind AI focuses on applying multimodal AI to agricultural intelligence and 
 - FastAPI
 - Docker
 🏗️ Architecture
-                 🌱 Plant Image
-                       │
-                       ▼
-              ┌─────────────────┐
-              │ Image Processing │
-              └────────┬────────┘
-                       │
-                       ▼
-              ┌─────────────────┐
-              │ EfficientNet /  │
-              │ Vision Model    │
-              └────────┬────────┘
-                       │
-                       ▼
-              ┌─────────────────┐
-              │ Disease / Plant │
-              │ Prediction      │
-              └────────┬────────┘
-                       │
-                       ▼
-              ┌─────────────────┐
-              │ Knowledge Base  │
-              └────────┬────────┘
-                       │
-                       ▼
-              ┌─────────────────┐
-              │ RAG / Retrieval │
-              └────────┬────────┘
-                       │
-                       ▼
-              ┌─────────────────┐
-              │ Agentic AI      │
-              │ Decision Layer  │
-              └────────┬────────┘
-                       │
-                       ▼
-              🌾 Agricultural
-                 Recommendation
+                 <img width="706" height="775" alt="image" src="https://github.com/user-attachments/assets/6dbe93fa-b80c-4b3e-b8b5-ef5f1eaf9cc4" />
+
 🛠️ Technology
 Python PyTorch EfficientNet Transfer Learning Computer Vision RAG LangChain Agentic AI FastAPI Docker
 🔗 Repository
@@ -221,29 +152,8 @@ This project explores a multimodal architecture for financial fraud detection by
 - Transaction Intelligence
 - Explainable Risk Analysis
 🧠 Model Direction
-Transaction Data
-      │
-      ▼
-Tabular DL Model
-      │
-      │
-Customer Complaint ──► NLP Transformer
-      │
-      │
-KYC Image ──────────► Vision Transformer
-      │
-      └────────┬─────────┘
-               ▼
-       Multimodal Fusion
-               │
-               ▼
-        Risk Representation
-               │
-               ▼
-       Fraud Risk Score
-               │
-               ▼
-       Decision / Alert
+<img width="857" height="778" alt="image" src="https://github.com/user-attachments/assets/6bdaee68-7734-47aa-9821-99a7b6200719" />
+
 🧠 Models
 TabTransformer FT-Transformer DeBERTa-v3-small Vision Transformer
 🛠️ Technology
@@ -269,39 +179,8 @@ A Python-first AI recruitment platform focused on intelligent candidate understa
 - Cloud Deployment
 - MLOps
 🏗️ Architecture
-             Resume / Candidate Data
-                       │
-                       ▼
-                Document Parser
-                       │
-                       ▼
-                Embedding Model
-                       │
-                       ▼
-                Vector Database
-                       │
-            ┌──────────┴──────────┐
-            │                     │
-            ▼                     ▼
-       Semantic Search          RAG
-            │                     │
-            └──────────┬──────────┘
-                       ▼
-                 LLM / Agent
-                       │
-                       ▼
-             Candidate Analysis
-                       │
-             ┌─────────┴─────────┐
-             ▼                   ▼
-        Match Score        Explanation
-             │                   │
-             └─────────┬─────────┘
-                       ▼
-                Recruiter API
-                       │
-                       ▼
-                   Dashboard
+            <img width="653" height="786" alt="image" src="https://github.com/user-attachments/assets/e4bf2639-f8a8-45e2-a76a-9ec3bae3d1b8" />
+
 🛠️ Technology
 Python FastAPI LLMs RAG Embeddings Vector Search Agents PostgreSQL Docker
 🛠️ Technology Stack
@@ -366,93 +245,11 @@ Systems	API Architecture, AI System Design, Event-Driven Architecture
 I don't want my engineering work to stop at:
 model.fit(X, y)
 I think about the complete lifecycle:
-┌──────────────────────┐
-│      PROBLEM         │
-└──────────┬───────────┘
-           ↓
-┌──────────────────────┐
-│       DATA           │
-└──────────┬───────────┘
-           ↓
-┌──────────────────────┐
-│    ML / DL / LLM     │
-└──────────┬───────────┘
-           ↓
-┌──────────────────────┐
-│     EVALUATION       │
-└──────────┬───────────┘
-           ↓
-┌──────────────────────┐
-│   FASTAPI / API      │
-└──────────┬───────────┘
-           ↓
-┌──────────────────────┐
-│   RAG / AGENTS       │
-└──────────┬───────────┘
-           ↓
-┌──────────────────────┐
-│       DOCKER         │
-└──────────┬───────────┘
-           ↓
-┌──────────────────────┐
-│       CI / CD        │
-└──────────┬───────────┘
-           ↓
-┌──────────────────────┐
-│     CLOUD / AWS      │
-└──────────┬───────────┘
-           ↓
-┌──────────────────────┐
-│       MLOps          │
-└──────────┬───────────┘
-           ↓
-┌──────────────────────┐
-│ PRODUCTION AI SYSTEM │
-└──────────────────────┘
-☁️ Production AI Architecture I'm Learning Toward
-                         USER
-                           │
-                           ▼
-                  ┌─────────────────┐
-                  │   React Client  │
-                  └────────┬────────┘
-                           │
-                           ▼
-                  ┌─────────────────┐
-                  │ FastAPI Gateway │
-                  └────────┬────────┘
-                           │
-          ┌────────────────┼────────────────┐
-          │                │                │
-          ▼                ▼                ▼
-     PostgreSQL          Redis            Kafka
-       Database          Cache        Event Streaming
-          │                │                │
-          └────────────────┼────────────────┘
-                           │
-                           ▼
-                  ┌─────────────────┐
-                  │ AI / ML Workers │
-                  └────────┬────────┘
-                           │
-             ┌─────────────┴─────────────┐
-             │                           │
-             ▼                           ▼
-      Model Serving                Vector Search
-      PyTorch / ML                 FAISS / Vector DB
-             │                           │
-             └─────────────┬─────────────┘
-                           │
-                           ▼
-                    RAG / LLM / Agent
-                           │
-                           ▼
-                    AI Response
-                           │
-                           ▼
-                 Observability Layer
-                  Prometheus / Grafana
 
+<img width="531" height="792" alt="image" src="https://github.com/user-attachments/assets/57ddd1fc-4faa-4720-9912-d42e7606af2b" />
+
+☁️ Production AI Architecture I'm Learning Toward
+                        <img width="666" height="780" alt="image" src="https://github.com/user-attachments/assets/e5b956dd-44a8-4dd5-a4d1-2145af42704f" />
 
         GitHub
            │
